@@ -1,0 +1,20 @@
+baseurl = "http://santamariadeborreda.com/"
+languageCode = "es-ca"
+
+title = "Santa Maria de Borredà"
+description = "Lorem ipsum dolor sit amet."
+
+[params.sidebar]
+    bio = "Santa Maria de Borredà"
+    avatar = "vergeVitrall.png"
+    background = "campanar.jpg"
+
+[params.portfolio]
+
+        # The images and thumbnails are stored under static/images
+        # Create and change subfolders as you like
+        [[params.portfolio.gallery]]
+            image = "back.jpg"
+            thumb = "POPA.JPG"
+            title = "Lorem ipsum dolor."
+            description = "Lorem ipsum dolor sit amet."
